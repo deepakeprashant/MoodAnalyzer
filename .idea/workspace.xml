@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2d706d-3214-40b7-ba34-e296ad6a5502" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MoodAnalysisException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodAnalyzerTest.java" afterDir="false" />
@@ -54,12 +55,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoodAnalyzerTest.givenNullMoodShould_ReturnHappy">
-    <configuration name="MoodAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MoodAnalyzerTest.givenEmptyMoodThrowCustomException">
+    <configuration name="MoodAnalyzerTest.givenEmptyMoodThrowCustomException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PracticeProblem" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoodAnalyzerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="givenEmptyMoodThrowCustomException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,16 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoodAnalyzerTest.givenMessage_Test_ReturnSad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PracticeProblem" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoodAnalyzerTest" />
-      <option name="METHOD_NAME" value="givenMessage_Test_ReturnSad" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MoodAnalyzerTest.givenNullMoodShould_ReturnHappy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PracticeProblem" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,13 +96,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoodAnalyzerTest.givenNullMoodThrowCustomException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticeProblem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoodAnalyzerTest" />
+      <option name="METHOD_NAME" value="givenNullMoodThrowCustomException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoodAnalyzerTest.givenEmptyMoodThrowCustomException" />
+        <item itemvalue="JUnit.MoodAnalyzerTest.givenNullMoodThrowCustomException" />
         <item itemvalue="JUnit.MoodAnalyzerTest.givenNullMoodShould_ReturnHappy" />
         <item itemvalue="JUnit.MoodAnalyzerTest.givenMessage_Test_NullException_ReturnHappy" />
         <item itemvalue="JUnit.MoodAnalyzerTest.givenMessage_Test_ReturnHappy" />
-        <item itemvalue="JUnit.MoodAnalyzerTest.givenMessage_Test_ReturnSad" />
-        <item itemvalue="JUnit.MoodAnalyzerTest" />
       </list>
     </recent_temporary>
   </component>

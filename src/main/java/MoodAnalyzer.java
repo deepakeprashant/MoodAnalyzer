@@ -8,14 +8,17 @@ public class MoodAnalyzer {
         this.message = message;
     }
 
-    public String moodAnalyser() {
+    public String moodAnalyser() throws MoodAnalysisException{
         try {
+            if (message.length() == 0){
+                throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.EMPTY,"Empty Mood, Enter Proper Message");
+            }
             if (message.contains("Sad"))
                 return "Sad";
             else
                 return "Happy";
         }catch (NullPointerException e){
-            return "Happy";
+            throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NULL,"Null Mood,Enter Proper Message");
         }
     }
 }
